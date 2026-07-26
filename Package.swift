@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/YusukeHosonuma/SwiftPrettyPrint.git", from: "1.3.0"),
         .package(url: "https://github.com/pointfreeco/swift-case-paths.git", from: "0.8.0"),
-        .package(url: "https://github.com/Bahnfinder/SwiftUI-Common.git", from: "1.0.0"),
+        .package(url: "https://github.com/Bahnfinder/SwiftUI-Common.git", branch: "main"),
     ],
     targets: [
         .target(name: "UserDefaultsBrowser", dependencies: [
